@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
     font-family: 'Montserrat';
-    max-width: 70%;
+    max-width: 80%;
     margin:auto;
     columns:#333;
 }
@@ -10,15 +10,15 @@ display  : flex;
 align-items: center;
 }
 .profile{
-    width: 150px;
-    height: 150px;
+    width: 20%;
+    height: 50%;
     object-fit: cover;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 2%;
 }
 .title{
     flex: 1;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 .name{
     color: gray;
@@ -28,38 +28,39 @@ align-items: center;
 }
 .color{
     color: coral;
-    min-width: 130px;
+    min-width: 115px;
 
 }
 .hrline{
     border: 1px solid coral;
 }
 .left{
-    min-width: 300px;
-    font-size: 22px;
+    min-width: 210px;
+    font-size: 150%;
     color: coral;
     display: block;
 }
 
 .space{
-    margin-top: 20px;
+    margin-top: 3%;
 }
 .largetext{
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 150%;
+    line-height: 150%;
     color:green;
 }
 .smalltext{
     font-weight: 100px;
-    line-height: 25px;
+    line-height: 175%;
     
 }
 .minileft{
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     display: block;
 }
 
 .footer{
+    margin-bottom: 3%;
     text-align: center;
     color: gray;
 }
